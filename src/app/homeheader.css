@@ -1,0 +1,84 @@
+
+/*  NAVIGATION BAR */
+@media (max-width:420px) {
+    .navbar{
+        padding: 10px 5px;
+    }
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 20px 50px;
+    justify-content:space-between;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 250px;
+}
+.navbar .logo .logo_image{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    
+}
+
+.navbar .nav ul{
+    display: flex;
+    align-items: center;
+}
+.navbar .nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+.navbar .nav ul li .mylink { 
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0 20px;
+}
+.navbar .nav ul li .isactive {
+    color: red;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.navbar .nav ul .last-child .mylink{
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.navbar .nav ul .mylink:hover{
+    color: red;
+}
+/* ----Home Description ----- */
+
+.home_disc{
+    position:absolute;
+    bottom: 150px;
+    left: 100px;
+    font-family: 'poppins', sans-serif;
+
+}
+.home_disc h1{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 4.3rem;
+}
+.home_disc p{
+    color: whitesmoke;
+    font-weight: 0;
+    font-size: 2rem;
+}

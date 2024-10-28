@@ -1,0 +1,253 @@
+.rooms .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.rooms .container .home {
+    background: url(/images/views.jpeg);
+    width: 100%;
+    height: 200px;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 120px 0 0 0;
+}
+.rooms .container .home h1 {
+    color: white;
+    font-size: 3.5em;
+    font-family: serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* ==== BOOKING SECTION */
+
+.room-stay_detail{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room-stay_detail .in_out{
+    background-color: whitesmoke;
+    width: 60%;
+    /* height: 50px; */
+    padding:  20px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 30px;
+}
+.room-stay_detail .in_out label{ 
+    text-align: center;
+    color: black;
+}
+.room-stay_detail .in_out label input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.room-stay_detail .in_out .guest-no select,option{
+    width: 80px;
+    padding: 3px ;
+    border-radius: 5px;
+}
+.room-stay_detail .in_out .btn{
+    border-radius: 10px;
+    background-color: darkblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.room-stay_detail .in_out .btn .btn-link {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+/*  --- Room Description */
+.desc .container {
+    width: 100%;
+    margin-top: 20px;
+}
+.desc .container .box {
+    width: 80%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+.desc .container .box .image {
+    width: 100%;
+}
+.desc .container .box .image img {
+    width: 100%;
+    height: auto;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.desc .container .box .detail {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.desc .container .box .detail .room-name {
+    display: flex;
+    justify-content: space-between;
+}
+.desc .container .box .detail .room-name h2 {
+    color: red;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.desc .container .box .detail .room-name button {
+    background-color: red;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.desc .container .box .detail .price {
+    display: flex;
+    justify-content: space-between;
+}
+.desc .container .box .detail .price p {
+    color: black;
+    font-size: 1rem;
+}
+.desc .container .box .detail .buttons {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 10px;
+
+}
+.desc .container .box .detail .buttons button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.desc .container .box .detail .buttons :first-child {
+    background-color: rgba(3, 124, 3, 0.877);
+    color: white;
+}
+.desc .container .box .detail .buttons button:hover {
+    background-color: darkblue;
+    color: white;
+}
+.desc .container .box .detail .more {
+    display: flex;
+    justify-content: space-between;
+}
+.desc .container .box .detail .more .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.desc .container .box .detail .more .rating p{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.desc .container .box .detail .more button {
+    font-size: 1.1rem;
+    padding:6px 15px ;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Offer section */
+.offer {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 45%;
+    margin: 0 auto; 
+    text-align: center;
+    padding: 20px;
+}
+.offer .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.offer .icons div {
+    flex: 1 1 30%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 5px;
+    font-size: 1.5rem;
+   
+}
+.offer .icons div p{
+    font-size: 1.2rem;
+}
+
+/* Suite Header */
+.suite-header {
+    text-align: center;
+    padding: 10px;
+}
+.suite-header h1 {
+    font-family:serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.suite-header p {
+    font-size: 1.1rem;
+}
+
+/* ==SAFETY SECTION */
+.safety .container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px auto; 
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.safety .container .desc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+
+}
+.safety .container .desc div {
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+}
+.safety .container .desc div p{
+    font-size: 1.3rem;
+    color: black;
+}

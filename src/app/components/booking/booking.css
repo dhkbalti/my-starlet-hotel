@@ -1,0 +1,94 @@
+.booking .container{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 70%;
+    margin: auto;
+}
+.container h1 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+.container p {
+    color: red;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.container .main {
+    max-width: 80%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+.container .main form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+.container .main form label {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+.container .main form label select {
+    width: 200px;
+    text-align: center;
+    font-size: 1rem;
+}
+/* .container .main form label:last-child {
+    padding: 0;
+    margin-right: 100px;
+} */
+.container .main form input {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    width: 150px;
+    /* padding: 0 20px; */
+    margin-left: 10px;
+}
+.container .main .msg-box {
+    display: flex;
+    flex-direction: column;
+}
+.container .main .msg-box label{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+.container .main .msg-box div{
+    width: 95%;
+    height: 100px;
+    border: 1px solid gray;
+    margin: auto;
+    text-align: start;
+    padding: 10px;
+}
+.container .main .booking-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+.container .main .booking-btn button {
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.container .main .link {
+    padding: 10px 20px;
+    background-color: blue;
+    margin: auto;
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    border-radius: 10px;
+}

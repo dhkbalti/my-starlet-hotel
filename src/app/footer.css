@@ -1,0 +1,77 @@
+
+/* /* _____ FOOTER Section START*_______/ */
+.footer-container{
+    width: 100%;
+    background-color: #000;
+    color: white;
+    position: relative;
+    top: 50px;
+    padding: 0 50px;
+    /* text-align: center; */
+}
+.footer-container .footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    padding: 20px;
+}
+.footer-container .footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-container .footer div h1 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+.footer-container .footer div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.footer-container .footer div ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+.footer-container .footer .box1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -20px;
+    position: relative;
+}
+.footer-container .footer .box4 div{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    gap: 2rem;
+}
+
+.footer-container .footer-name{
+    max-width: 90%;
+    margin: auto;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.location-section {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.map{
+    max-width: 90%;
+    height: 400px;
+    margin: auto;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+.map .map-loc {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

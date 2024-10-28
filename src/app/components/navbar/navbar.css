@@ -1,0 +1,88 @@
+/* components/Navbar.module.css */
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    color: white;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  /* Logo styling */
+  .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Hide the nav links by default for mobile */
+  .navMenu {
+    display: none;
+  }
+  
+  /* Button to toggle the menu (hamburger icon) */
+  .menuBtn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  /* Menu list */
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Show the menu when active (for mobile) */
+  .navMenu.active {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  .navList.active {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* RESPONSIVE STYLES */
+  
+  /* Desktop: Show the navbar on large screens */
+  @media (min-width: 768px) {
+    .menuBtn {
+      display: none; /* Hide the menu button */
+    }
+  
+    .navMenu {
+      display: block;
+    }
+  
+    .navList {
+      flex-direction: row;
+    }
+  
+    .navMenu.active {
+      position: static;
+    }
+  }
+  

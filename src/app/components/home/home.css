@@ -1,0 +1,317 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* // Header section */
+.bg_home{
+    max-width: 100%; 
+    height: 95vh;
+    font-family: 'poppins', sans-serif;
+    /* background:url(/images/header-img.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat; */
+
+    position: relative;
+}
+
+.bg{
+    background:url(/images/header-img.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(60%);
+}
+
+
+
+
+/* MENU BAR START */
+/* .navbar .menu-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+}
+.navbar .menu-bar div{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+   
+} */
+
+
+  /* NAVIGATION BAR 
+@media (max-width:420px) {
+    .navbar{
+        padding: 10px 5px;
+    }
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 20px 50px;
+    justify-content:space-between;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 250px;
+}
+.navbar .logo .logo_image{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    
+}
+
+.navbar .nav ul{
+    display: flex;
+    align-items: center;
+}
+.navbar .nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+.navbar .nav ul li .mylink { 
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0 20px;
+}
+.navbar .nav ul li .isactive {
+    color: red;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.navbar .nav ul .last-child .mylink{
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.navbar .nav ul .mylink:hover{
+    color: red;
+}
+ ----Home Description ----- 
+
+.home_disc{
+    position:absolute;
+    bottom: 150px;
+    left: 100px;
+    font-family: 'poppins', sans-serif;
+
+}
+.home_disc h1{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 4.3rem;
+}
+.home_disc p{
+    color: whitesmoke;
+    font-weight: 0;
+    font-size: 2rem;
+} */
+
+/* --- Check Availability ----- */
+
+/* stay detail */
+
+.stay_detail{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stay_detail .in_out{
+    background-color: whitesmoke;
+    width: 60%;
+    /* height: 50px; */
+    padding:  20px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20px;
+    box-shadow:0 10px 100px rgba(0, 0, 0, 1);
+}
+.stay_detail .in_out label{ 
+    text-align: center;
+    color: black;
+}
+.in_out label input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.stay_detail .in_out .guest-no select,option{
+    width: 80px;
+    padding: 3px ;
+    padding: 5px;
+}
+.stay_detail .in_out .btn{
+    border-radius: 10px;
+    background-color: darkblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.stay_detail .in_out .btn .btn-link {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+/*  --Why Choose Background --- */
+.whyUs{
+    margin-top: 30px;
+    position: relative;
+    background-color: #000;
+    max-width: 100%;
+    color: white;
+    padding: 20px 0;
+}
+.whyUs .heading h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: serif;
+    padding: 10px;
+}
+.whyUs .about{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    text-align: center;
+    padding: 10px 0;
+    max-width: 90%;
+    margin: auto;
+  
+}
+.whyUs .about .about-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 95%;
+}
+.whyUs .about .about-box .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 100px;
+    line-height: 2rem;
+    border-radius: 20px;
+    background-color: rgb(10,10, 10);
+    gap: 10px;
+}
+.whyUs .about .about-box .box h2{
+    font-family: serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.whyUs .about .about-box .box-img{
+    width: 500px;
+    height: 300px;
+    border: 1px solid orangered;
+    border-radius: 15px;
+}
+.whyUs .about .about-box .box-img img{
+    width: 100%;
+    height: 298px;
+    border-radius: 15px;
+}
+
+/*  ================
+       Frequently Asked Questions
+    ================
+*/
+.ask-question {
+    padding: 20px 0;
+}
+.question .accordion{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px ;
+    cursor: pointer ;
+}
+
+.ask-question h1{
+    text-align: center;
+    font-family: serif;
+    font-size: 2rem;
+    
+}
+.asked-question {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    gap: 30px 60px;
+    padding: 20px 0;
+}
+
+/* .asked-question .question .dropdown-button{
+    
+    transform:rotate(90deg);
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 10px solid black;
+    border-radius: 2px;
+    
+} */
+.asked-question .question h3{
+    cursor: pointer;
+}
+.asked-question .question{
+    border: 1px solid black;
+    border-radius: 10px;
+    /* padding: 10px; */
+    height: auto;
+}
+.asked-question .question .dropdown-menu{
+    padding: 0 10px 10px 10px;
+    display: none;
+}
+
+
+/* ---FACILITIES SECTION */
+
+.facilities .container {
+    max-width: 100%;
+    height: auto; 
+    margin: auto;
+}
+.facilities .container img {
+    width: 100%;
+}
